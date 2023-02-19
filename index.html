@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <title>Ata's Hub</title>
+  <link rel="icon" href="assets/Images/programming.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <head>
+    <body>
+      <div class="fixed-bg">
+        <style>
+          .fixed-bg {
+      background-image: url("./assets/Images/wallpaper.jpeg");
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+        </style>
+      <div class="wrapper">
+        <div class="container header">
+          <h1 class="logotext"><img src="./assets/Images/programming.png" id="logo" class="logoimg"/>Ata's Hub</h1>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#" class="navitem">Home</a></li>
+              <li><a href="#" class="navitem">Portflio</a></li>
+              <li><a href="#" class="navitem">About Me</a></li>
+            </ul>
+          </nav>
+        </div>
+
+
+        <div class="container hero">
+          <div class="hero-left">
+            <h2>Hi, <br> my name is <span class="orange">Ata</span>, <br> I'm aspiring to be a Web Dev</h2>
+           <div class="hero-left-center">
+            <p>still <span class="orange">learning</span>, steadily <span class="orange">progressing.</span></p>
+           </div>
+          </div>
+          <div class="hero-right">
+            <a href="#"><button class="btn" role="button">Projects</button></a>
+          </div>
+        </div>
+
+        
+
+      <div class="hobbies">
+        <div class="hobby item1"><img src="./assets/Images/coding.jpeg" id="imgitem">
+        <p>Coding</p>
+      </div>
+        <div class="hobby item2"><img src="./assets/Images/games.avif" id="imgitem">
+        <p>Video Games</p>
+        </div>
+        <div class="hobby item3"><img src="./assets/Images/travel.jpg" id="imgitem">
+        <p>Travelling</p>
+        </div>
+      </div>
+      </div>
+      
+      <div class="game">
+        <div class="game-left">
+          <div class="upgrade-tracker">
+            <div class="upgrades">
+              <img src="./assets/Images/worker.png"><p class="p-ups">Workers:&nbsp <span id="workers">0</span></p>
+            </div>
+            <div class="upgrades">
+              <img src="./assets/Images/robot.png"><p class="p-ups">Robots:&nbsp <span id="robots">0</span></p>
+            </div>
+            <div class="upgrades">
+              <img src="./assets/Images/ufo.png"><p class="p-ups">Aliens:&nbsp <span id="aliens">0</span></p>
+            </div>
+          </div>
+          </div>
+
+
+          <div class="game-middle">
+        <div class="game-counter"> 
+          <h3>Gem Collector</h3>
+          <p>Gems: <span id="score">0</span></p>
+          <p>Gems per second: <span id="scorepersecond">0</span></p>
+          </div>  
+          <div class="game-content">
+            <img src="./assets/Images/clickerimg.png" class="clicker-image" onclick="addToScore(clickingPower)">
+          </div>
+          <div class="featuregame-content">
+            <img src="./assets/Images/save.png" class="save-game" onclick="Save.open();">
+            <img src="./assets/Images/delete.png" class="del-game" onclick="Confirm.open();">
+            <img src="./assets/Images/info.png" class="info-game" onclick="Info.open();">
+          </div>
+        </div>
+
+
+        <div class="game-right">
+        <div class="game-upgrades">
+          <div class="upgrade-1">
+            <img src="./assets/Images/worker.png" class="upgrade-item" onclick="buyWorker()"> 
+            <p class="centrum">Cost:&nbsp <span id="workercost">5</span></p>
+          </div>
+          <div class="upgrade-2">
+            <img src="./assets/Images/robot.png" class="upgrade-item" onclick="buyRobot()">
+            <p class="centrum">Cost:&nbsp <span id="robotcost">50</span></p>
+          </div>
+          <div class="upgrade-3">
+            <img src="./assets/Images/ufo.png" class="upgrade-item" onclick="buyAlien()">
+            <p class="centrum">Cost:&nbsp <span id="aliencost">500</span></p>
+          </div>
+      </div>
+        </div>
+      </div>
+      <div class="socials">
+          <div class="icons">
+            <img src="./assets/Images/html-5.png">
+            <img src="./assets/Images/css-3.png">
+            <img src="./assets/Images/javascript.png">
+            <img src="./assets/Images/node.jpeg">
+          </div>
+      </div>
+      </div>
+
+
+      <script src="./assets/js/app.js"></script>
+
+    </body>
+  </head>
+</html>

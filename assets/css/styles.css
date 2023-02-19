@@ -1,0 +1,623 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+body,
+html {
+  margin: 0;
+  font-family: "Abel", sans-serif;
+  user-select: none;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.logotext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    background-color: orange;
+    margin: 5px 20px;
+    padding: 10px 15px 10px 0px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.logotext:hover {
+    background: black;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.orange {
+  color: orange;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  align-self: center;
+}
+
+a {
+  color: black;
+  font-size: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navitem {
+  background-color: orange;
+  margin: 4px;
+  transition-duration: 0.5s;
+  border-radius: 8px;
+}
+
+.navitem:hover {
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  padding: 0px 20px;
+  max-width: 50px;
+  vertical-align: text-top;
+}
+
+
+nav {
+  display: flex;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.502);
+}
+
+.header {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-between;
+}
+
+.centrum {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* HERO */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  color: white;
+  margin: 0px 350px;
+  border-radius: 20px;
+}
+
+.hero-left {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  background-color: transparent;
+  flex-direction: column;
+}
+
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px 20px;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  transition-duration: 1s;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* PROJECTS */
+
+.hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  color: white;
+  margin: 20px 200px;
+  border-radius: 20px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.hobby {
+  display: flex;
+  color: #f9faf8;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8px;
+  border-bottom: none;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.hobby img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+}
+
+.item1 img {
+  transition: 0.5s;
+}
+
+.item1:hover img {
+  transform: scale(1.1);
+  border: 2px solid white;
+}
+
+.item2 img {
+  transition: 0.5s;
+}
+
+.item2:hover img {
+  transform: scale(1.1);
+  border: 2px solid white;
+}
+
+.item3 img {
+  transition: 0.5s;
+}
+
+.item3:hover img {
+  transform: scale(1.1);
+  border: 2px solid white;
+}
+
+.orange {
+    transition: 1.2s;
+}
+
+.orange:hover {
+    color: beige
+}
+
+/* GAME */
+
+h3 {
+    font-size: 28px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.436);
+    padding: auto;
+    margin: 40px 350px;
+    border-radius: 20px; 
+    border: solid 2px white;
+}
+
+.game-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upgrade-tracker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 150px;
+
+}
+
+.game-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.game-right {
+    display: flex;
+    justify-content: cent;
+    align-items: center;
+    margin: 20px 150px;
+}
+ 
+.upgrade-item {
+display: flex;
+max-width: 70px;
+align-self: center;
+transition-duration: 0.3;
+}
+
+.upgrade-item:hover {
+    transform: scale(1.1);
+}
+
+.p-ups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.upgrades {
+    display: flex;
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 5px;
+}
+
+.featuregame-content {
+    margin: 15px 0px;
+}
+
+.clicker-image {
+    transition-duration: 0.5s;
+    max-width: 150px;
+}
+
+.clicker-image:hover {
+    transform: scale(1.1);
+}
+
+.save-game {
+    max-width: 30px;
+    transition-duration: 0.5s;
+}
+
+.save-game:hover {
+    transform: scale(1.3);
+}
+
+.del-game {
+    max-width: 30px;
+    transition-duration: 0.5s;
+}
+
+.del-game:hover {
+    transform: scale(1.3);
+}
+
+.info-game {
+    max-width: 30px;
+    transition-duration: 0.5s;
+}
+
+.info-game:hover {
+    transform: scale(1.3);
+}
+
+
+
+.socials {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.436);
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    max-width: 50px;
+}
+
+.icons img {
+    margin: 0px 20px;
+}
+
+
+.confirm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    animation-name: confirm---open;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirm--close {
+    animation-name: confirm---close;
+}
+
+.confirm__window {
+    width: 100%;
+    max-width: 350px;
+    background: orange;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: scale(0.75);
+    animation-name: confirm__window---open;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    border: 2px solid white;
+}
+
+.confirm__titlebar,
+.confirm__content,
+.confirm__buttons {
+    padding: 10px;
+}
+
+.confirm__titlebar {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirm__title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.confirm__close {
+    background: none;
+    outline: none;
+    border: none;
+    transform: scale(2.5);
+    color: #ffffff;
+    transition: color 0.15s;
+}
+
+.confirm__close:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.confirm__content {
+    line-height: 1.8em;
+}
+
+.confirm__buttons {
+    background: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.confirm__button {
+    padding: 0.4em 0.8em;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #ffffff;
+    color: red;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 0.6em;
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.confirm__button:hover {
+    background-color: red;
+    color: white;
+}
+
+.confirm__button--fill {
+    background: white;
+    color: #5ec900;
+    transition-duration: 0.5s;
+}
+
+.confirm__button--fill:hover {
+    color: white;
+    background-color: #89eb34;
+}
+
+.confirm__button:focus {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes confirm---open {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+@keyframes confirm---close {
+    from { opacity: 1 }
+    to { opacity: 0 }
+}
+
+@keyframes confirm__window---open {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.confirmus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    animation-name: confirm---open;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.confirmus--close {
+    animation-name: confirm---close;
+}
+
+.confirmus__window {
+    width: 100%;
+    max-width: 350px;
+    background: orange;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transform: scale(0.75);
+    animation-name: confirm__window---open;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    border: 2px solid white;
+}
+
+.confirmus__titlebar,
+.confirmus__content,
+.confirmus__buttons {
+    padding: 10px;
+}
+
+.confirmus__titlebar {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.confirmus__title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.confirmus__close {
+    background: none;
+    outline: none;
+    border: none;
+    transform: scale(2.5);
+    color: #ffffff;
+    transition: color 0.15s;
+}
+
+.confirmus__close:hover {
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.confirmus__content {
+    line-height: 1.8em;
+}
+
+.confirmus__buttons {
+    background: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.confirmus__button {
+    padding: 0.4em 0.8em;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #89eb34;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 0.6em;
+    cursor: pointer;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.confirmus__button:hover {
+    background-color: #89eb34;
+    color: white;
+}
+
+.confirmus__button--fill {
+    background: white;
+    color: red;
+    transition-duration: 0.5s;
+}
+
+.confirmus__button--fill:hover {
+    color: white;
+    background-color: red;
+}
+
+.confirmus__button:focus {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes confirmus---open {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+@keyframes confirmus---close {
+    from { opacity: 1 }
+    to { opacity: 0 }
+}
+
+@keyframes confirmus__window---open {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
